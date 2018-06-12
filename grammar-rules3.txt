@@ -1,0 +1,63 @@
+<pangungusap>		:=	 <kayarian>
+
+<kayarian>		:=	<pp_payak> !! <pp_tambalan> !! <pp_hugnayan> !! <pp_langkapan>
+
+<pp_payak>		:=	<sugnay_nakapagiisa>
+
+<pp_tambalan>		:=	<pp_payak>,<pangatnig>,<pp_payak>
+
+<pp_hugnayan>		:=	<pp_payak>,<pangatnig>,<sugnay_dinakapagiisa> !! 														<pp_payak>,<sugnay_dinakapagiisa>,<sugnay_dinakapagiisa> !!												<pangatnig>,<sugnay_dinakapagiisa>,<pp_payak>,<pangatnig>,<sugnay_dinakapagiisa> !! 																									<pangatnig>,<sugnay_dinakapagiisa>,<pp_payak>
+
+<pp_langkapan>		:=	<pp_tambalan>,<pangatnig>,<sugnay_dinakapagiisa> !! 													<pp_payak>,<pangatnig>,<sugnay_dinakapagiisa>,<pangatnig>,<pp_payak> !! 								<pangatnig>,<pp_payak>,<pp_payak>,<pangatnig>,<sugnay_dinakapagiisa>
+
+<sugnay_nakapagiisa>	:=	<ayos>
+
+<sugnay_dinakapagiisa>	:=	<pangatnig>,<sugnay_nakapagiisa>,<bantas> !! 															<pangawing>,<sugnay_nakapagiisa>,<bantas>
+
+
+<ayos> := <karaniwang_ayos> !! <kabalikang_ayos>
+
+<karaniwang_ayos>	:=	<sim/panag>,<sim/panag>,<bantas> 
+
+<kabalikang_ayos>	:=	<sim/panag>,<pangawing>,<sim/panag>,<bantas> 
+
+	
+<sim/panag> := <simuno> !! <panaguri> !! <sim/panag>,<pangatnig>,<sim/panag> !! <sim/panag>,<sim/panag>
+
+<simuno>		:= <s_parirala> !! <pantukoy>,<s_parirala> !! <simuno>,<pangatnig>,<simuno>
+
+<s_parirala> := <pangngalan> !!																							<panghalip> !!																							<panguri> !!																							<pangngalan>,<s_parirala> !!																			<panghalip>,<s_parirala> !! 																			<panguri>,<s_parirala> !! 																				<pangabay>,<s_parirala> !!																				<s_parirala>,<pangatnig>,<s_parirala>	
+
+																
+<panaguri>	:=	<pandiwa> !! <pandiwa>,<simuno> !! <pandiwa>,<simuno>,<simuno>
+		
+
+
+<pandiwa> :=  <pandiwa>,<pandiwa> !! 																				  <pandiwa>,<pangatnig>,<pandiwa> !!																	  <pandiwa>,<pangabay>,<pandiwa> !!																		  <pandiwa>,<pangabay> !!																				  <pangabay>,<pangatnig>,<pangabay> !!																	  <pandiwa>,<pangabay>,<pangatnig>,<pangabay> !!														  <pangabay>,<pandiwa> !! 																				  <pandiwa>,<pandiwa>,<pangabay>  
+
+<pangabay> := <pangabay>,<pangabay>
+
+
+
+
+<pangngalan>		:=	'kaibigan' !! 'aso' !! 'pusa' !! 'Corazon' !! 'Aquino'
+
+<panghalip>		:=	'ako' !! 'ikaw' !! 'ka' !! 'siya' !! 'ko' !! 'mo' !! 'kita' !! 'kami' !! 'tayo' !! 'kayo' !! 'sila' !! 'nila' !! 'naming'
+
+<pantukoy>		:=	'ang' !! 'ang mga' !! 'si' !! 'ni' !! 'kay' !! 'ni' !! 'kina' !! 'kay' !! 'ang'
+
+<pangatnig>		:=	'o' !! 'saka' 
+
+<pandiwa>		:=	'kailangan' !! 'dapat'
+
+<panguri>		:=	'sing' 
+
+<pangabay>		:=	'nang limang libra' !! 'kapag' !! 'pag' !! 'dahil sa' !! 'dahil dito' 
+
+<pangawing>		:=	'ay'
+
+<bantas>		:=	'.' !! '!' !! '?'
+
+<CD>		:=	'1' !! 'una' !! 'tatlo' !! 'III'
+
+<TS>		:=	'Umuulan' !! 'alas dos na' !! 'may tao'
